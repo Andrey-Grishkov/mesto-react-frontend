@@ -62,6 +62,9 @@ function Main({
           {cards.map((card) => (
             <Card
               itemCard={card}
+              link={card.link}
+              name={card.name}
+              likes={card.likes}
               key={card._id}
               cardClick={onCardClick}
               onCardLike={onCardLike}

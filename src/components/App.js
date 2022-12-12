@@ -179,7 +179,9 @@ function App() {
         if (res) {
           setInfoTooltip(true);
           setRegIn(true);
-          history.push('/sign-in');
+          setLoggedIn(true);
+          setUserEmail(res.email);
+          history.push('/');
         }
       })
       .catch((err) => {

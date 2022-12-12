@@ -22,7 +22,7 @@ function App() {
   const [isOpenAddPlace, setIsOpenAddPlace] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
   const [isOpenImage, setIsOpenImage] = useState(false);
-  const [currentUser, setCurrentUser] = useState(null);
+  const [currentUser, setCurrentUser] = useState({});
   const [regIn, setRegIn] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
   const [userEmail, setUserEmail] = useState('');
